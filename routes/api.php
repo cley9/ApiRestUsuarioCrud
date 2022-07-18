@@ -22,43 +22,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
-
-// Route::group([
-//     'middleware' => 'api',
-//     'prefix' => 'auth'
-// ], function () {
-//     Route::post('/Api-insertarUsuario', [userController::class,'insert'])->name('post.usuario.api');
-// });
-// Route::middleware('api')->group(function () {
-    Route::post('/Api-insertarUsuario', [userController::class,'insert'])->name('post.usuario.api');
-
-    Route::get('/Api-informacion', [userController::class,'view'])->name('get.usuario.api');
-// });
-
-
-
-
-
-
-
-// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
-
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
 
 // // Apis
-// Route::get('/Api-actualizarUsuario', [userController::class,'update'])->name('put.usuario.api');
-// Route::get('/Api-eliminarUsuario/{id}', [userController::class,'delete'])->name('delete.usuario.api');
-// Route::get('/Api-busquedaId', [userController::class,'searchId'])->name('getId.usuario.api');
+Route::get('/informacion', [userController::class,'view'])->name('get.usuario.api');
+Route::post('/registrar', [userController::class,'insert'])->name('post.usuario.api');
+Route::put('/actualizar', [userController::class,'update'])->name('put.usuario.api');
+Route::delete('/eliminar/{id}', [userController::class,'delete'])->name('delete.usuario.api');
+Route::get('/busqueda/{id}', [userController::class,'search'])->name('getId.usuario.api');
 
 
-
-// {
-//     "nombre": "cldfsafeyu",
-//     "apellido": 32,
-//     "correo": 2,
-//     "edad": 2,
-//     "sexo": 23
-// }

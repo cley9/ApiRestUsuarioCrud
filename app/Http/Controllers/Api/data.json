@@ -1,0 +1,51 @@
+[
+    {
+        "primerNombre": "jose",
+        "segundoNombre": "andres",
+        "apellidoPaterno": "Torres",
+        "apellidoMaterno": "Quiroz",
+        "dni": 23849883,
+        "residencia": "Pisco-Av.Pardo",
+        "fechaNacimiento": "23/8/1998",
+        "edad": 24,
+        "sexo": "M",
+        "correo": "jose@gmail.com"
+    },
+    {
+        "primerNombre": "mark",
+        "segundoNombre": "alex",
+        "apellidoPaterno": "Martinez",
+        "apellidoMaterno": "Rojas",
+        "dni": 99834445,
+        "residencia": "Lima-Av.Pardo",
+        "fechaNacimiento": "4/2/1995",
+        "edad": 27,
+        "sexo": "M",
+        "correo": "mark@gmail.com"
+    },
+    {
+        "primerNombre": "maria",
+        "segundoNombre": "andres",
+        "apellidoPaterno": "Avila",
+        "apellidoMaterno": "Garcia",
+        "dni": 63834883,
+        "residencia": "Pisco-Av.Pardo",
+        "fechaNacimiento": "23/8/1993",
+        "edad": 29,
+        "sexo": "F",
+        "correo": "maria@gmail.com"
+    },
+    {
+        "primerNombre": "marta",
+        "segundoNombre": "nicolle",
+        "apellidoPaterno": "Vasques",
+        "apellidoMaterno": "Flores",
+        "dni": 77233371,
+        "residencia": "Pisco-Av.Pardo",
+        "fechaNacimiento": "17/3/2000",
+        "edad": 22,
+        "sexo": "F",
+        "correo": "marta@gmail.com"
+    }
+
+]
