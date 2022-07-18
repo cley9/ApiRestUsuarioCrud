@@ -1,3 +1,13 @@
+### Requisitos
+ --- php >8.00
+ --- framework laravel 9
+### Pasos :
+ -- prende tu servidor xampp o wampp 
+ -- crea un base de dato en mysql con el nombre dba_apiuser
+ -- ejecuta el comando php artisan serve
+ -- ejecuta el comando php artisan migrate:fresh
+ -- luego prueba las api's
+### Nota: la ruta es http://127.0.0.1:8000/api/Api-informacion/    -- el pueto dependera de tu configuracion.
 
 [![metodo-Post.png](https://i.postimg.cc/xTqkKdRs/metodo-Post.png)](https://postimg.cc/6yJ5KtFR)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
